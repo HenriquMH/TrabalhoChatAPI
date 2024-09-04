@@ -1,0 +1,23 @@
+{
+  "name": "chat-api-cimol",
+  "version": "1.0.0",
+  "main": "./bin/server.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "socket.io": "^4.7.5"
+  },
+  "description": "chat api cimol",
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
